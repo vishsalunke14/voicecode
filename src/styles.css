@@ -1,0 +1,18 @@
+:root{ --bg:#ffffff; --muted:#666 }
+*{ box-sizing: border-box }
+body{ margin:0; font-family: Inter,Segoe UI,Helvetica,Arial, sans-serif; background:#f1f5f9 }
+.app-root{ padding:12px }
+.topbar{ display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:12px }
+.topbar h2{ margin:0 }
+.topbar .projname{ margin-left:12px; padding:6px 8px }
+.controls button{ margin-left:6px }
+.main-grid{ display:grid; grid-template-columns: 280px 1fr 380px; gap:12px }
+.panel{ background:#fff; padding:12px; border-radius:8px; box-shadow: 0 6px 18px rgba(0,0,0,0.04) }
+.transcript{ background:#f8fafc; padding:8px; border-radius:6px; min-height:48px }
+.versions{ display:flex; flex-direction:column; gap:8px; margin-top:8px }
+.ver{ display:flex; justify-content:space-between; align-items:center; padding:6px; border-radius:6px; background:#fbfbfb }
+.editor-row{ display:flex; gap:8px }
+.center-col{ display:flex; flex-direction:column }
+.right-col{ display:flex; flex-direction:column }
+.preview-panel{ display:flex; flex-direction:column; gap:8px }
+.footer{ margin-top:12px; color:var(--muted) }
